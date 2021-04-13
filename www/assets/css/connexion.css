@@ -1,0 +1,11 @@
+#cadre {
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+@media screen and (max-width: 50em) {
+    #cadre {
+        width: 70%;
+    }
+}

@@ -1,0 +1,33 @@
+#cadre {
+    background-image: url(../img/grisConnexionInscription.jpg);
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+    border-radius: 20px;
+    background-size: cover;
+    color: #BDBDBD;
+}
+
+#titre {
+    text-align: center;
+    color: #BDBDBD;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 50em) {
+    #titre {
+        font-size: 1em;
+    }
+}
+
+#page {
+    background-image: url(../img/fondConnexionInscription.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#erreur {
+    color: #DF3A01;
+    font-weight: bold;
+}
